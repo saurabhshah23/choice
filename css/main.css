@@ -1,0 +1,264 @@
+@font-face {
+    font-family: railway;
+    src: url(../resources/font/Railway.otf);
+}
+body {
+    font-family: railway;
+    margin: 0 auto;
+    position: relative;
+    max-width: 1280px;
+}
+
+/*Header styles*/
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.background {
+    width: 100%;
+}
+.submit {
+    border: 0;
+    background-color: #e24a45;
+    width: 201px;
+    color: white;
+}
+form {
+    position: absolute;
+    right: 75px;
+    top: 30px;
+    background-color: #324a64;
+    width: 354px;
+    height: 475px;
+}
+form input {
+        display: block;
+        width: 302px;
+        height: 44px;
+        margin: 21px auto;
+        padding: 0;
+}
+
+.headMain{
+    height: 100px;
+    color: #ffffff;
+    background: #e24a45;
+    text-align: center;
+    width: 404px;
+    margin: 25px 0 0 -25px;
+    display: flex;
+    align-items: center;
+    box-shadow: -0px 21px 21px -10px #1c2630;
+}
+.headMain h1{
+    width: 100%;
+    font-weight: normal;
+}
+.headMain h1 span:nth-child(2) {
+    font-weight: bold;
+}
+.headMain span{
+    display: block;
+    font-size: 21px;
+}
+/*Header styles - End*/
+
+/*New Section common*/
+.newSection{
+    text-align: center;
+    color: rgb(50,75,100);
+    font-size: 16px;
+    padding-bottom: 74px;
+}
+.newSection h2 {
+    color: rgb(100,150,200);
+    font-size: 32px;
+    text-align: center;
+    padding: 75px 0 35px;
+    margin: 0;
+    font-weight: normal;
+}
+.newSection .bodyText{
+    padding: 0 100px;
+    margin: 0;
+}
+.subtitleUnderline{
+    margin: 0 auto 36px;
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+/*New Section common - End*/
+
+/*Our Services*/
+.ourServices ul {
+    width: 100%;
+    padding: 0;
+    margin: 75px auto 0;
+}
+.ourServices ul li {
+    display: inline-block;
+    width: 10%;
+    padding: 74px 25px 0;
+    background-size: 46px;
+}
+.ourServices ul li:hover{
+    background-size: 46px;
+    color: rgb(255,0,0);
+}
+.ourServices ul li.itemEquity{
+    /*change below url for every image*/
+    background: url('../resources/graph.png') no-repeat;
+    background-position-x: center;
+}
+.ourServices ul li.itemEquity:hover{
+    /*change below url for every image*/
+    background: url('../resources/box copy.png') no-repeat;
+    background-position-x: center;
+}
+/*Our Services - End*/
+
+/*Bonus*/
+.bonusContanier{
+    background: url("../resources/Chioce Index Background.jpg");
+    background-size: contain;
+    height: 475px;
+}
+.bonusContanier img {
+    padding: 34px 0 0 175px;
+    height: 407px;
+}
+.bonusContanier .bonusBody{
+    text-align: center;
+    color: #fff;
+    font-size: 34px;
+    font-weight: normal;
+    width: 50%;
+    float: right;
+    margin-top: 3.5em;
+}
+.bonusBody .blueText{
+    color: rgb(31,167,223);
+    font-size: 120px;
+    font-weight: bold;
+    font-family: arial;
+}
+.bonusBody h3{
+    margin: 0;
+    font-size: 34px;
+    font-weight: normal;
+}
+/*Bonus - End*/
+
+/*Why choose us*/
+.whyChooseUs{
+    background: rgb(243,243,247);
+}
+.whyChooseUs ul {
+    width: 100%;
+    padding: 0;
+    margin: 75px auto 0;
+}
+.whyChooseUs ul li {
+    display: inline-block;
+    width: 10%;
+    padding: 74px 50px 0;
+    background-size: 46px;
+}
+.whyChooseUs ul li:hover{
+    background-size: 46px;
+    color: rgb(255,0,0);
+}
+
+.whyChooseUs ul li.itemTrading{
+    /*change below url for every image*/
+    background: url('../resources/graph.png') no-repeat;
+    background-position-x: center;
+}
+.whyChooseUs ul li.itemTrading:hover{
+    /*change below url for every image*/
+    background: url('../resources/box copy.png') no-repeat;
+    background-position-x: center;
+}
+
+.whyChooseUs .subbody {
+    padding-top: 15px;
+}
+.whyChooseUs .sublist {
+    width: 15%;
+}
+/*Why choose us - End*/
+
+/*Cost Structure*/
+.costBody{
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+}
+.costBody ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.costBody ul li {
+    width: 50%;
+    height: 75px;
+    display: inline-block;
+    padding: 0 32px;
+}
+.costBody ul li div{
+    display: flex;
+    align-items: center;
+    position: relative;
+    background: rgb(243,243,247);
+}
+.costBody ul li div .plus{
+    position: absolute;
+    right: 12px;
+}
+.costBody ul li div span{
+    padding-left: 12px;
+}
+/*Cost Structure - End*/
+
+/*TV Commercial*/
+.tvcommercial .tvLeft,.tvcommercial .tvRight{
+    text-align: left;
+    padding: 22px;
+    width: 50%;
+}
+.tvcommercial .flexCenter{
+    display: flex;
+    align-items: center;
+    padding: 0 100px;
+}
+/*TV Commercial - End*/
+
+/*Footer*/
+footer {
+    background: rgb(50,75,100);
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 150px;
+}
+.footerLeft{
+    width: 50%;
+}
+.footerRight{
+    padding-left: 12px;
+}
+.contactContainer{
+    border-right: 1px solid #fff;
+    text-align: right;
+    margin: 12px 0;
+    padding-right: 12px;
+}
+.contactContainer div{
+    padding: 8px 0;
+}
+/*Footer - End*/
+
