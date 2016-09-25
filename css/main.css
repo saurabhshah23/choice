@@ -260,5 +260,33 @@ footer {
 .contactContainer div{
     padding: 8px 0;
 }
+.telContainer{
+    background: url('../resources/telephone.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 32px;
+    display: inline-block;
+}
+.emailContainer{
+    background: url('../resources/mail-black-envelope-symbol.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 32px;
+    display: inline-block;
+}
 /*Footer - End*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
