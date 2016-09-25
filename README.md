@@ -1,2 +1,2 @@
 # choice
-choice pages UI design
+choice homepage UI design
