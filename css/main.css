@@ -123,7 +123,7 @@ form input {
 
 /*Bonus*/
 .bonusContainer{
-    background: url("../resources/Chioce Index Background.jpg");
+    background: url('../resources/Chioce Index Background.jpg');
     background-size: contain;
     height: 475px;
 }
