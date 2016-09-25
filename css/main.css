@@ -33,11 +33,13 @@ form {
     height: 475px;
 }
 form input {
-        display: block;
-        width: 302px;
-        height: 44px;
-        margin: 21px auto;
-        padding: 0;
+    display: block;
+    width: 302px;
+    height: 44px;
+    margin: 21px auto;
+    box-sizing: border-box;
+    padding: 0 0 0 8px;
+    border: 0;
 }
 
 .headMain{
@@ -120,16 +122,16 @@ form input {
 /*Our Services - End*/
 
 /*Bonus*/
-.bonusContanier{
+.bonusContainer{
     background: url("../resources/Chioce Index Background.jpg");
     background-size: contain;
     height: 475px;
 }
-.bonusContanier img {
+.bonusContainer img {
     padding: 34px 0 0 175px;
     height: 407px;
 }
-.bonusContanier .bonusBody{
+.bonusContainer .bonusBody{
     text-align: center;
     color: #fff;
     font-size: 34px;
@@ -278,7 +280,113 @@ footer {
 
 
 
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+/*Insert your changes for tablet viewport here*/
+}
 
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+    header{
+        height: 64px;
+        background: #324a64;
+    }
+    .background{
+        display: none;
+    }
+    .logo{
+        position: static;
+        padding: 8px;
+        height: 48px;
+    }
+    form{
+        position: static;
+        width: 100%;
+        height: auto;
+    }
+    .headMain{
+        margin: 0;
+        width: 100%;
+    }
+    form input{
+        margin: 12px auto;
+        width: 100%;
+    }
+    form input{
+        margin-top: 0;
+    }
+    .formBody{
+        padding: 16px;
+    }
+    .submit{
+        padding: 0;
+        width: 100%;
+        border-radius: 5px;
+        margin-bottom: 0;
+    }
+    
+    .newSection{
+        padding-bottom: 32px;
+    }
+    .newSection h2{
+        font-size: 18px;
+        padding: 32px 0 16px;
+    }
+    .subtitleUnderline{
+        border: 1px solid black;
+        margin: 0 auto 12px;
+    }
+    .newSection .bodyText{
+        padding: 0 16px;
+    }
+
+    .ourServices ul{
+        margin: 12px auto 0;
+        overflow: scroll;
+    }
+    .ourServices ul li{
+        width: 100px;
+        padding: 56px 8px 0;
+    }
+    
+    .bonusContainer{
+        width: 100%;
+        height: auto;
+    }
+    .bonusContainer img{
+        display: none;
+    }
+    .bonusContainer .bonusBody{
+        width: auto;
+        float: none;
+        padding: 16px;
+        margin-top: auto;
+        font-size: 18px;
+    }
+    .bonusBody h3{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .bonusBody .blueText{
+        font-size: 60px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
 
 
 
