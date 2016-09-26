@@ -10,13 +10,17 @@ body {
 }
 
 /*Header styles*/
+header{
+    min-height: 575px;
+}
 .logo {
     position: absolute;
     top: 20px;
     left: 20px;
 }
 .background {
-    width: 100%;
+/*    width: 100%;*/
+    height: 100%;
 }
 .submit {
     border: 0;
@@ -128,8 +132,9 @@ form input {
     height: 475px;
 }
 .bonusContainer img {
-    padding: 34px 0 0 175px;
+    padding: 34px 0 0 10%;
     height: 407px;
+    margin-right: -100%;
 }
 .bonusContainer .bonusBody{
     text-align: center;
@@ -138,7 +143,7 @@ form input {
     font-weight: normal;
     width: 50%;
     float: right;
-    margin-top: 3.5em;
+    margin-top: 9%;
 }
 .bonusBody .blueText{
     color: rgb(31,167,223);
@@ -281,14 +286,22 @@ footer {
 
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width : 768px) and (min-width : 481px){
 /*Insert your changes for tablet viewport here*/
+    
+    form{
+        margin-top: 56px;
+        opacity: 0.9;
+    }
+    
+    
 }
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
 
     header{
+        min-height: auto;
         height: 64px;
         background: #324a64;
     }
@@ -372,15 +385,52 @@ footer {
         font-size: 60px;
     }
     
+    .whyChooseUs ul{
+        margin: 12px auto 0;
+        overflow: scroll;
+    }
+    .whyChooseUs ul li.sublist{
+        width: 100px;
+        padding: 56px 8px 0;
+    }
+    .whyChooseUs ul li .subbody{
+        display: none;
+    }
     
+    .tvcommercial .flexCenter{
+        display: block;
+        padding: 0 16px;
+        text-align: center;
+    }
+    .tvcommercial .tvLeft, .tvcommercial .tvRight{
+        text-align: center;
+        padding: 0;
+        width: auto;
+    }
+    .tvcommercial .tvRight{
+        margin: 0 -16px;
+    }
+    .tvcommercial iframe{
+        width: 100%;
+    }
     
-    
-    
-    
-    
-    
-    
-    
+    footer{
+        display: block;
+        height: auto;
+        padding: 16px;
+    }
+    .footerLeft{
+        width: auto;
+    }
+    .contactContainer{
+        border: 0;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+    }
+    .footerRight{
+        padding: 8px 0;
+    }
     
     
     
