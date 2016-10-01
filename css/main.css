@@ -13,14 +13,16 @@ body {
 header{
     min-height: 575px;
 }
+
+body{
+    background: url("../resources/Landing Page Top Photo.jpg") no-repeat;
+    background-position-x: center;
+}
+
 .logo {
     position: absolute;
     top: 20px;
     left: 20px;
-}
-.background {
-/*    width: 100%;*/
-    height: 100%;
 }
 .submit {
     border: 0;
@@ -113,14 +115,130 @@ form input {
     background-size: 46px;
     color: rgb(255,0,0);
 }
+
+
+
+
+
+
 .ourServices ul li.itemEquity{
-    /*change below url for every image*/
     background: url('../resources/graph.png') no-repeat;
+    background-position-x: center;
+}
+.ourServices ul li.financial{
+    background: url('../resources/presentation.png') no-repeat;
+    background-position-x: center;
+}
+.ourServices ul li.wealth{
+    background: url('../resources/hand-holding-money-bills copy.png') no-repeat;
+    background-position-x: center;
+}
+.ourServices ul li.structured{
+    background: url('../resources/box copy.png') no-repeat;
+    background-position-x: center;
+}
+.ourServices ul li.commodity{
+    background: url('../resources/management copy.png') no-repeat;
+    background-position-x: center;
+}
+/*
+.ourServices ul li .itemEquityImg{
+    background: url('../resources/graph.png') no-repeat;
+    width: 46px;
+    height: 46px;
+    margin: 0 auto;
+}
+.ourServices ul li .financialImg{
+    background: url('../resources/presentation.png') no-repeat;
+    width: 100%;
+    height: 46px;
+    margin: 0 auto;
+}
+.ourServices ul li .wealthImg{
+    background: url('../resources/hand-holding-money-bills copy.png') no-repeat;
+    width: 46px;
+    height: 46px;
+    margin: 0 auto;
+}
+.ourServices ul li .structuredImg{
+    background: url('../resources/box copy.png') no-repeat;
+    background-position-x: center;
+    width: 46px;
+    height: 46px;
+    margin: 0 auto;
+}
+.ourServices ul li .commodityImg{
+    background: url('../resources/management copy.png') no-repeat;
+    background-position-x: center;
+    width: 46px;
+    height: 46px;
+    margin: 0 auto;
+}
+*/
+
+
+
+
+.ourServices ul li.currency{
+    background: url('../resources/currencies copy.png') no-repeat;
+    background-position-x: center;
+}
+.ourServices ul li.corporate{
+    background: url('../resources/bank-safe-box copy.png') no-repeat;
+    background-position-x: center;
+}
+.ourServices ul li.ipos{
+    background: url('../resources/dollar-symbol copy.png') no-repeat;
+    background-position-x: center;
+}
+.ourServices ul li.mutual{
+    background: url('../resources/funds copy.png') no-repeat;
+    background-position-x: center;
+}
+.ourServices ul li.bonds{
+    background: url('../resources/coins-stacks-of-dollars-hand-drawn-commercial-symbol copy.png') no-repeat;
     background-position-x: center;
 }
 .ourServices ul li.itemEquity:hover{
     /*change below url for every image*/
     background: url('../resources/box copy.png') no-repeat;
+    background-position-x: center;
+}
+.ourServices ul li.financial:hover{
+    /*change below url for every image*/
+    background: url('../resources/box copy.png') no-repeat;
+    background-position-x: center;
+}
+.ourServices ul li.wealth:hover{
+    background: url('../resources/hand-holding-money-bills copy_red.png') no-repeat;
+    background-position-x: center;
+}
+.ourServices ul li.structured:hover{
+    background: url('../resources/box copy_red.png') no-repeat;
+    background-position-x: center;
+}
+.ourServices ul li.commodity:hover{
+    background: url('../resources/management copy_red.png') no-repeat;
+    background-position-x: center;
+}
+.ourServices ul li.currency:hover{
+    background: url('../resources/currencies copy_red.png') no-repeat;
+    background-position-x: center;
+}
+.ourServices ul li.corporate:hover{
+    background: url('../resources/bank-safe-box copy_red.png') no-repeat;
+    background-position-x: center;
+}
+.ourServices ul li.ipos:hover{
+    background: url('../resources/dollar-symbol copy_red.png') no-repeat;
+    background-position-x: center;
+}
+.ourServices ul li.mutual:hover{
+    background: url('../resources/funds copy_red.png') no-repeat;
+    background-position-x: center;
+}
+.ourServices ul li.bonds:hover{
+    background: url('../resources/coins-stacks-of-dollars-hand-drawn-commercial-symbol copy_red.png') no-repeat;
     background-position-x: center;
 }
 /*Our Services - End*/
@@ -227,7 +345,7 @@ form input {
     right: 12px;
 }
 .costBody ul li div span{
-    padding-left: 12px;
+    padding: 0 32px 0 12px;
 }
 /*Cost Structure - End*/
 
@@ -286,7 +404,7 @@ footer {
 
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px) and (min-width : 481px){
+@media only screen and (max-width : 768px){
 /*Insert your changes for tablet viewport here*/
     
     form{
@@ -432,8 +550,17 @@ footer {
         padding: 8px 0;
     }
     
-    
-    
+    .costBody{
+        padding: 0;
+    }
+    .costBody ul{
+        display: block;
+    }
+    .costBody ul li{
+        display: block;
+        width: 100%;
+        padding: 0 0 1px 0;
+    }
     
     
 }
