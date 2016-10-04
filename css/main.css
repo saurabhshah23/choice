@@ -110,6 +110,8 @@ form input {
     width: 10%;
     padding: 74px 25px 0;
     background-size: 46px;
+    vertical-align: top;
+    word-break: break-all;
 }
 .ourServices ul li:hover{
     background-size: 46px;
