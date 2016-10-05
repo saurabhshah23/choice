@@ -18,12 +18,15 @@ body{
     background: url("../resources/Landing Page Top Photo.jpg") no-repeat;
     background-position-x: center;
 }
-
 .logo {
     position: absolute;
     top: 20px;
     left: 20px;
 }
+.openFormBtn{
+    display: none;
+}
+
 .submit {
     border: 0;
     background-color: #e24a45;
@@ -111,7 +114,7 @@ form input {
     padding: 74px 25px 0;
     background-size: 46px;
     vertical-align: top;
-    word-break: break-all;
+    word-break: break-word;
 }
 .ourServices ul li:hover{
     background-size: 46px;
@@ -420,10 +423,23 @@ footer {
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
 
+    body{
+        background: none;
+    }
     header{
         min-height: auto;
         height: 64px;
         background: #324a64;
+    }
+    .openFormBtn{
+        display: block;
+        float: right;
+        margin: 8px;
+        font-size: 24px;
+        height: 48px;
+        background: transparent;
+        border: 0;
+        color: #ffffff;
     }
     .background{
         display: none;
@@ -437,6 +453,9 @@ footer {
         position: static;
         width: 100%;
         height: auto;
+        margin-top: 0;
+        opacity: 1;
+        display: none;
     }
     .headMain{
         margin: 0;
@@ -476,11 +495,12 @@ footer {
 
     .ourServices ul{
         margin: 12px auto 0;
-        overflow: scroll;
+        overflow-x: scroll;
     }
     .ourServices ul li{
         width: 100px;
         padding: 56px 8px 0;
+        xxfloat: left;
     }
     
     .bonusContainer{
