@@ -496,12 +496,13 @@ footer {
     .ourServices ul{
         margin: 12px auto 0;
         overflow-x: scroll;
+		white-space: nowrap;
     }
     .ourServices ul li{
         width: 100px;
         padding: 56px 8px 0;
-        xxfloat: left;
-    }
+		white-space: normal;
+	}
     
     .bonusContainer{
         width: 100%;
@@ -528,10 +529,12 @@ footer {
     .whyChooseUs ul{
         margin: 12px auto 0;
         overflow: scroll;
+		white-space: nowrap;
     }
     .whyChooseUs ul li.sublist{
         width: 100px;
         padding: 56px 8px 0;
+		white-space: normal;
     }
     .whyChooseUs ul li .subbody{
         display: none;
