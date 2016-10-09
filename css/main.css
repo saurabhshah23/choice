@@ -411,16 +411,16 @@ footer {
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px){
 /*Insert your changes for tablet viewport here*/
-    
+
     form{
         margin-top: 56px;
         opacity: 0.9;
     }
-    
-    
+
+
 }
 
-/* Extra Small Devices, Phones */ 
+/* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 
     body{
@@ -458,8 +458,8 @@ footer {
         display: none;
     }
     .headMain{
-        margin: 0;
-        width: 100%;
+        margin: 0 0 0 -5%;
+        width: 110%;
     }
     form input{
         margin: 12px auto;
@@ -477,7 +477,7 @@ footer {
         border-radius: 5px;
         margin-bottom: 0;
     }
-    
+
     .newSection{
         padding-bottom: 32px;
     }
@@ -503,7 +503,7 @@ footer {
         padding: 56px 8px 0;
 		white-space: normal;
 	}
-    
+
     .bonusContainer{
         width: 100%;
         height: auto;
@@ -525,7 +525,7 @@ footer {
     .bonusBody .blueText{
         font-size: 60px;
     }
-    
+
     .whyChooseUs ul{
         margin: 12px auto 0;
         overflow: scroll;
@@ -539,7 +539,7 @@ footer {
     .whyChooseUs ul li .subbody{
         display: none;
     }
-    
+
     .tvcommercial .flexCenter{
         display: block;
         padding: 0 16px;
@@ -556,7 +556,7 @@ footer {
     .tvcommercial iframe{
         width: 100%;
     }
-    
+
     footer{
         display: block;
         height: auto;
@@ -574,7 +574,7 @@ footer {
     .footerRight{
         padding: 8px 0;
     }
-    
+
     .costBody{
         padding: 0;
     }
@@ -586,8 +586,8 @@ footer {
         width: 100%;
         padding: 0 0 1px 0;
     }
-    
-    
+
+
 }
 
 
