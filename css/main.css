@@ -250,8 +250,8 @@ form input {
 
 /*Bonus*/
 .bonusContainer{
-    background: url('../resources/Choice Index Background.png');
-    background-size: contain;
+    background: url('../resources/Choice Index Background.png') no-repeat;
+    background-size: cover;
     height: 475px;
 }
 .bonusContainer img {
@@ -426,10 +426,15 @@ footer {
     body{
         background: none;
     }
+    main{
+        padding-top: 64px;
+    }
     header{
         min-height: auto;
         height: 64px;
-        background: #324a64;
+        background: rgba(50,74,100,0.8);
+        position: fixed;
+        width: 100%;
     }
     .openFormBtn{
         display: block;
@@ -437,7 +442,8 @@ footer {
         margin: 8px;
         font-size: 24px;
         height: 48px;
-        background: transparent;
+        background: #e24a45;
+        border-radius: 5px;
         border: 0;
         color: #ffffff;
     }
@@ -549,9 +555,6 @@ footer {
         text-align: center;
         padding: 0;
         width: auto;
-    }
-    .tvcommercial .tvRight{
-        margin: 0 -16px;
     }
     .tvcommercial iframe{
         width: 100%;
