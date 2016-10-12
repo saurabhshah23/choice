@@ -295,23 +295,62 @@ form input {
     width: 10%;
     padding: 74px 50px 0;
     background-size: 46px;
+    vertical-align: top;
+    word-break: break-word;
 }
 .whyChooseUs ul li:hover{
     background-size: 46px;
     color: rgb(255,0,0);
 }
 
-.whyChooseUs ul li.itemTrading{
-    /*change below url for every image*/
-    background: url('../resources/graph.png') no-repeat;
+.whyChooseUs ul li.trading{
+    background: url('../resources/group copy.png') no-repeat;
     background-position-x: center;
 }
-.whyChooseUs ul li.itemTrading:hover{
-    /*change below url for every image*/
+.whyChooseUs ul li.trading:hover{
     background: url('../resources/box copy.png') no-repeat;
     background-position-x: center;
 }
-
+.whyChooseUs ul li.financialPlanning{
+    background: url('../resources/GROWTH STRATEGY AND FUNDING ASSISTANCE copy.png') no-repeat;
+    background-position-x: center;
+}
+.whyChooseUs ul li.financialPlanning:hover{
+    background: url('../resources/box copy.png') no-repeat;
+    background-position-x: center;
+}
+.whyChooseUs ul li.tradingPlatforms{
+    background: url('../resources/pc-smartphone.png') no-repeat;
+    background-position-x: center;
+}
+.whyChooseUs ul li.tradingPlatforms:hover{
+    background: url('../resources/box copy.png') no-repeat;
+    background-position-x: center;
+}
+.whyChooseUs ul li.customerSupport{
+    background: url('../resources/headphones copy.png') no-repeat;
+    background-position-x: center;
+}
+.whyChooseUs ul li.customerSupport:hover{
+    background: url('../resources/box copy.png') no-repeat;
+    background-position-x: center;
+}
+.whyChooseUs ul li.mutualFunds{
+    background: url('../resources/statistics.png') no-repeat;
+    background-position-x: center;
+}
+.whyChooseUs ul li.mutualFunds:hover{
+    background: url('../resources/box copy.png') no-repeat;
+    background-position-x: center;
+}
+.whyChooseUs ul li.researchServices{
+    background: url('../resources/college-research copy.png') no-repeat;
+    background-position-x: center;
+}
+.whyChooseUs ul li.researchServices:hover{
+    background: url('../resources/box copy.png') no-repeat;
+    background-position-x: center;
+}
 .whyChooseUs .subbody {
     padding-top: 15px;
 }
