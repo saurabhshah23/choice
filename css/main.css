@@ -541,7 +541,7 @@ footer {
     .ourServices ul{
         margin: 12px auto 0;
         overflow-x: scroll;
-		white-space: nowrap;
+		xxwhite-space: nowrap;
     }
     .ourServices ul li{
         width: 100px;
